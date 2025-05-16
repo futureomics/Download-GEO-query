@@ -3,6 +3,9 @@
 
 This repository provides an R script to query, download, and process microarray gene expression datasets from the NCBI Gene Expression Omnibus (GEO) database using the `GEOquery` package.
 
+
+follow youtube- https://www.youtube.com/@Bioinformatics_Made_Easy
+
 ## 🧬 Overview
 
 NCBI GEO hosts a vast collection of gene expression data. This project focuses on microarray experiments and offers a simple R-based workflow to:
@@ -26,6 +29,3 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("GEOquery")
 BiocManager::install("Biobase")
-
-
-follow youtube- https://www.youtube.com/@Bioinformatics_Made_Easy
